@@ -1,170 +1,158 @@
-🎮 Paddle Rivals – The Ultimate Arcade Showdown
-<p align="center"> <img src="Assets/logo.png" width="200" alt="Paddle Rivals Logo"/> </p> <p align="center"> <b>⚡ Neon. ⚔️ Rivalry. 🕹️ Precision.</b><br> A modern OpenGL-powered Pong remake with dynamic menus, AI opponents, FX, and theme customization. </p>
-🚀 Overview
+# 🎮 **Paddle Rivals – The Ultimate Arcade Showdown**
 
-Paddle Rivals is a high-energy arcade Pong game built entirely in C++ & OpenGL (FreeGLUT).
+<p align="center">
+  <img src="assets/logo.png" width="200" alt="Paddle Rivals Logo"/>
+</p>
 
-Featuring:
+<p align="center">
+  <b>⚡ Neon. ⚔️ Rivalry. 🕹️ Precision.</b><br>
+  A modern OpenGL-powered Pong remake with dynamic menus, AI opponents, FX, and theme customization.
+</p>
 
-Full menu system
+---
 
-Single & Multiplayer modes
+## 🚀 Overview
 
-Adjustable AI difficulty
+**Paddle Rivals** is a fast‑paced, modernized Pong experience built in **C++ & OpenGL (FreeGLUT)**.  
+With flashy visuals, smooth gameplay, dynamic themes, full menu navigation, AI opponents, and 3D elements — this game levels up the classic arcade duel.
 
-Themes, background FX, screen shake, and scoring flashes
+---
 
-Avatar selection, player names, and polished UI
+## ⭐ Key Features
 
-Background music + custom game icon
+### 🎮 Gameplay
+- ⚔️ **Single Player Mode** with AI (Easy / Medium / Hard)
+- 🤝 **Multiplayer 1v1 Mode**
+- 🧭 Smooth 4-direction paddle movement
+- 🏐 Dynamic ball physics with speed scaling
+- 💥 Scoring flash & screen-shake FX
+- 🔄 Pause menu, resume, restart, return to menu
 
-A touch of 3D spice (rotating cube)
+### 🧠 AI Opponent
+- Tracks ball movement
+- Reacts based on difficulty
+- Moves horizontally & vertically
+- Responsive with no jitter
 
-Built from scratch in one night like legends 😤🔥
+### 🎨 Visual Themes
+Three selectable themes:
+- 🌃 **Neon Night**
+- 🌌 **Cosmic Field**
+- 🕹️ **Retro Grid** *(default)*
 
-⭐ Key Features
-🎮 Gameplay
+Includes:
+- 3D rotating cube in menus
+- Ball glow effects
+- Themed gradients
+- Modern HUD and avatars
 
-⚔️ Single Player (AI with Easy / Medium / Hard)
+### 🔊 Audio & Polish
+- Looping background music
+- Custom window icon
+- Immersive fake‑fullscreen mode
 
-🤝 Multiplayer (1v1 keyboard)
+---
 
-🧊 Smooth 4-direction paddle control
+## 📂 Project Structure
 
-🏐 Speed-scaling ball physics
-
-💥 Flash + screen shake when scoring
-
-🔄 Pause menu with resume / menu options
-
-🧠 AI System
-
-Smooth tracking of ball movement
-
-Difficulty affects speed & reaction time
-
-Moves on both X and Y axes
-
-No stutter, no jitter
-
-🎨 Visuals & Themes
-
-Choose between 3 animated themes:
-
-🌌 Cosmic Field
-
-🌃 Neon Night
-
-🕹️ Retro Grid (default)
-
-Extras:
-
-3D spinning cube
-
-Ball glow effect
-
-Themed HUD
-
-Smooth gradients and grids
-
-🔊 Audio & Polish
-
-Always-on looped background music (bg_music.wav)
-
-Custom window icon (icon.ico)
-
-Fake-fullscreen immersive window for gameplay feel
-
-📂 Project Structure
+```
 Paddle-Rivals/
 │
 ├── Assets/
 │   ├── logo.png
 │   ├── icon.ico
 │   ├── bg_music.wav
-│   ├── screenshots/
-│   │     ├── menu.png
-│   │     ├── gameplay.png
-│   │     ├── avatars.png
-│   │     └── settings.png
+│   └── screenshots/
 │
 ├── Demo_Video/
 │   └── demo.mp4
 │
 ├── main.cpp
 └── README.md
+```
 
-🎥 Demo & Screenshots
-📹 Full Gameplay Demo
+---
 
-▶️ Watch Demo Video
+## 🎥 Demo & Screenshots
 
-🖼️ Screenshots
-Main Menu	In-Game
-<img src="Assets/screenshots/menu.png" width="420"/>	<img src="Assets/screenshots/gameplay.png" width="420"/>
-Avatar Select	Settings
-<img src="Assets/screenshots/avatars.png" width="420"/>	<img src="Assets/screenshots/settings.png" width="420"/>
-🎮 Controls
-Single Player
-Action	Keys
-Move	W / A / S / D or Arrow Keys
-Pause	ESC
-Multiplayer
-Player	Up	Down	Left	Right
-P1	W	S	A	D
-P2	↑	↓	←	→
-⚙️ Building the Game (Windows – CodeBlocks)
-1️⃣ Install Dependencies
+### 📹 Full Gameplay Demo  
+[▶️ Click Here to Watch](assets/demo_Video/demo_video.mp4)
 
-Download freeglut binaries:
+---
 
+### 🖼️ Screenshots
+
+| Main Menu | Gameplay |
+|----------|----------|
+| <img src="assets/screenshots/menu.png" width="420"/> | <img src="assets/screenshots/gameplay.png" width="420"/> |
+
+| Avatar Select | Settings |
+|----------|----------|
+| <img src="assets/screenshots/avatar.png" width="420"/> | <img src="assets/screenshots/settings.png" width="420"/> |
+
+---
+
+## 🎮 Controls
+
+### Single Player
+| Action | Keys |
+|--------|------|
+| Move | W / A / S / D or Arrow Keys |
+| Pause | ESC |
+
+### Multiplayer
+| Player | Up | Down | Left | Right |
+|--------|-----|-------|--------|--------|
+| **P1** | W | S | A | D |
+| **P2** | ↑ | ↓ | ← | → |
+
+---
+
+## ⚙️ Build Instructions (Windows – CodeBlocks)
+
+### 1️⃣ Install Dependencies
+Install **freeglut** and ensure the following DLLs/libs:
+```
 freeglut.dll
-
 freeglut.lib
-
 opengl32.lib
-
 glu32.lib
+```
 
-2️⃣ Link Libraries
-
-In Build Options → Linker Settings, add:
-
+### 2️⃣ Link Libraries  
+In CodeBlocks → Build Options → Linker Settings:
+```
 -lfreeglut
 -lopengl32
 -lglu32
+```
 
+Place `freeglut.dll` inside your `bin/Debug` folder.
 
-Put freeglut.dll next to your .exe inside bin/Debug.
+---
 
-🖼️ Adding the Custom Icon
+## 🖼️ Add Custom Game Icon
 
-Place icon.ico inside Assets/ and include:
-
+```cpp
 #ifdef _WIN32
 HANDLE hIcon = LoadImage(NULL, "Assets/icon.ico", IMAGE_ICON, 32, 32, LR_LOADFROMFILE);
 SendMessage(GetActiveWindow(), WM_SETICON, ICON_SMALL, (LPARAM)hIcon);
 SendMessage(GetActiveWindow(), WM_SETICON, ICON_BIG, (LPARAM)hIcon);
 #endif
+```
 
-🔊 Adding Background Music
+---
 
-Place bg_music.wav inside Assets/.
+## 👑 Credits
 
-Add:
+**Developed by:**  
+- **Mohamed Abdallah Eldairouty (@MohamedEldairouty)**  
 
-PlaySound("Assets/bg_music.wav", NULL, SND_LOOP | SND_ASYNC);
-
-👑 Credits
-
-Developed by:
-
-Mohamed Abdallah Eldairouty (@MohamedEldairouty)
-
-Course:
+**Course:**  
 Computer Graphics – AAST 2025
 
-📝 License
+---
 
-This project is for academic use and portfolio showcasing.
+## 📝 License
+This project is for academic & portfolio use only.  
 © 2025 Paddle Rivals Team.
