@@ -1,7 +1,7 @@
 # 🎮 **Paddle Rivals – The Ultimate Arcade Showdown**
 
 <p align="center">
-  <img src="assets/logo.ico" width="200" alt="Paddle Rivals Logo"/>
+  <img src="assets/icons/icon.ico" width="200" alt="Paddle Rivals Logo"/>
 </p>
 
 <p align="center">
@@ -76,7 +76,7 @@ Paddle-Rivals/
 ## 🎥 Demo & Screenshots
 
 ### 📹 Full Gameplay Demo  
-[▶️ Click Here to Watch](assets/demo_video/Demo_Video.mp4)
+[▶️ Click Here to Watch](assets/demo%20video/Demo%20Video.mp4)
 
 ---
 
