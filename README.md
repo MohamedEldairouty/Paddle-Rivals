@@ -1,7 +1,7 @@
 # 🎮 **Paddle Rivals – The Ultimate Arcade Showdown**
 
 <p align="center">
-  <img src="assets/icons/icon.ico" width="200" alt="Paddle Rivals Logo"/>
+  <img src="assets/icons/padel-racket.png" width="200" alt="Paddle Rivals Logo"/>
 </p>
 
 <p align="center">
