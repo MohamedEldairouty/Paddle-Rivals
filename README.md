@@ -1,7 +1,7 @@
 # 🎮 **Paddle Rivals – The Ultimate Arcade Showdown**
 
 <p align="center">
-  <img src="assets/logo.png" width="200" alt="Paddle Rivals Logo"/>
+  <img src="assets/logo.ico" width="200" alt="Paddle Rivals Logo"/>
 </p>
 
 <p align="center">
@@ -76,7 +76,7 @@ Paddle-Rivals/
 ## 🎥 Demo & Screenshots
 
 ### 📹 Full Gameplay Demo  
-[▶️ Click Here to Watch](assets/demo_Video/demo_video.mp4)
+[▶️ Click Here to Watch](assets/demo_video/Demo_Video.mp4)
 
 ---
 
@@ -128,18 +128,6 @@ In CodeBlocks → Build Options → Linker Settings:
 ```
 
 Place `freeglut.dll` inside your `bin/Debug` folder.
-
----
-
-## 🖼️ Add Custom Game Icon
-
-```cpp
-#ifdef _WIN32
-HANDLE hIcon = LoadImage(NULL, "Assets/icon.ico", IMAGE_ICON, 32, 32, LR_LOADFROMFILE);
-SendMessage(GetActiveWindow(), WM_SETICON, ICON_SMALL, (LPARAM)hIcon);
-SendMessage(GetActiveWindow(), WM_SETICON, ICON_BIG, (LPARAM)hIcon);
-#endif
-```
 
 ---
 
