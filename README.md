@@ -134,7 +134,7 @@ Place `freeglut.dll` inside your `bin/Debug` folder.
 ## 👑 Credits
 
 **Developed by:**  
-- **Mohamed Abdallah Eldairouty (@MohamedEldairouty)**  
+- **Mohamed Abdallah Eldairouty (221001719)**  
 
 **Course:**  
 Computer Graphics – AAST 2025
